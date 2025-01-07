@@ -13,4 +13,4 @@
 - ⚡ Fun fact: ...
 -->
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=wlswnsdn&theme=tokyonight&show_icons=true)
+<a href="https://github.com/imysh578"><img align="center" style="height:180px" src="https://github-readme-stats.vercel.app/api?username=wlswnsdn&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true" alt="MOZZI's github stats" /></a>
