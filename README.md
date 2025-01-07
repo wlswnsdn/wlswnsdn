@@ -2,6 +2,8 @@
 
 <a href="https://github.com/imysh578"><img align="center" style="height:180px" src="https://github-readme-stats.vercel.app/api?username=wlswnsdn&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true" alt="MOZZI's github stats" /></a>
 
+<a href="https://github.com/imysh578"><img align="center" style="height:180px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wlswnsdn&layout=compact&theme=tokyonight&hide_border=true" /></a> 
+
 <!--
 - 🌱 I’m currently learning Springboot, EC2...  
 - 🔭 I’m currently working on ...
