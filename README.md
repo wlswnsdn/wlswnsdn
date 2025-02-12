@@ -19,10 +19,10 @@
 </div>
 <br><br>
 
-## 🏆 Baekjoon Solved Rank
+## 📈 My Solved.ac Tier
 <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=gurojicasu123" />
 
-<br><br><br>
+<br><br>
 
 ## ⚙️ Technologies & Tools
 
