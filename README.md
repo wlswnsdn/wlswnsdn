@@ -18,6 +18,7 @@
   </a>
 </div>
 <br><br>
+
 ## 🏆 Baekjoon Solved Rank
 <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=gurojicasu123" />
 
