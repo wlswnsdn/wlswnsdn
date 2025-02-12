@@ -17,6 +17,8 @@
     <img align="center" style="height:180px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wlswnsdn&layout=compact&theme=tokyonight&hide_border=true" />
   </a>
 </div>
+<br><br>
+![solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=gurojicasu123)
 <br><br><br>
 
 ## ⚙️ Technologies & Tools
