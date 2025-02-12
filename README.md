@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=MOZZI_CODE&fontSize=90)
 
 
-## Welcome to My GitHub Profile! 🚀
+## 🚀 Welcome to My GitHub Profile! 
 
 - 🔭 I’m currently working on **Java Projects**.
 - 🌱 I’m learning **Spring Boot and Docker**.
