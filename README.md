@@ -18,7 +18,9 @@
   </a>
 </div>
 <br><br>
-![solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=gurojicasu123)
+## 🏆 Baekjoon Solved Rank
+<img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=gurojicasu123" />
+
 <br><br><br>
 
 ## ⚙️ Technologies & Tools
