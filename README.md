@@ -41,5 +41,8 @@
 ![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+![AWS RDS](https://img.shields.io/badge/AWS RDS-527FFF?style=flat&logo=amazonrds&logoColor=white)
+![AWS VPC](https://img.shields.io/badge/AWS VPC-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Github Actions](https://img.shields.io/badge/GitHub Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
 
