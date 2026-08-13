@@ -16,43 +16,34 @@ Java / Spring Boot로 서비스를 만들고, Docker·Kubernetes(K3s)·Terraform
 
 ### 🚀 대표 프로젝트
 
-  | 프로젝트 | 설명 | 스택 |
-  |---|---|---|
-  | [channeling-ai/BE-V2](https://github.com/channeling-ai/BE-V2) | 유튜브 영상 AI 분석 서비스 백엔드 (4인 팀). K8s 헬스체크, Docker 멀티스테이징 빌드, S3(OCI 호환) 추상화, CI 캐싱 담당 | Java, Spring Boot, MySQL, Docker |
-  | [channeling-ai/INFRA](https://github.com/channeling-ai/INFRA) | Terraform으로 OCI 인스턴스 프로비저닝, 4개 티어(app/data/monitoring/platform) Helm 차트 작성, ArgoCD sync-wave 기반 GitOps 배포 구조 셋업 | Terraform, K3s, ArgoCD, Helm |
-  | [mcp-gemini-reviewer](https://github.com/wlswnsdn/mcp-gemini-reviewer) | Gemini 기반 코드리뷰 자동화 MCP 서버 (⭐2) | Python, Gemini API |
-  | [NeodinaryHackaton_BE](https://github.com/wlswnsdn/NeodinaryHackaton_BE) | 너디너리 해커톤 4인 팀 백엔드 | Java, Spring Boot |
+| 프로젝트 | 설명 | 스택 |
+|---|---|---|
+| [channeling-ai/BE-V2](https://github.com/channeling-ai/BE-V2) | 유튜브 영상 AI 분석 서비스 백엔드 (4인 팀, CI/CD 셋업부터 참여). 온보딩·로그아웃·피드백 API 개발, 비동기 처리로 로그인 응답 시간 4.3초→14ms 단축, AWS 전용 S3 연동을 리팩터링해 OCI 호환 지원 | Java, Spring Boot, MySQL, Docker |
+| [channeling-ai/INFRA](https://github.com/channeling-ai/INFRA) | Terraform으로 OCI 인스턴스 프로비저닝, 4개 티어(app/data/monitoring/platform) Helm 차트 작성, ArgoCD sync-wave 기반 GitOps 배포 구조 셋업 | Terraform, K3s, ArgoCD, Helm |
+| [mcp-gemini-reviewer](https://github.com/wlswnsdn/mcp-gemini-reviewer) | Gemini 기반 코드리뷰 자동화 MCP 서버 (⭐2) | Python, Gemini API |
+| [NeodinaryHackaton_BE](https://github.com/wlswnsdn/NeodinaryHackaton_BE) | 너디너리 해커톤 4인 팀 백엔드 | Java, Spring Boot |
 
-  ---
+---
 
-  ### ⚙️ 기술 스택
+### ⚙️ 기술 스택
 
-  **Backend**
-  ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-  ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-  ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-  ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-  ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+**Backend**
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-  **Infra / DevOps**
-  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-  ![Kubernetes](https://img.shields.io/badge/Kubernetes%20(K3s)-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-  ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-  ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-  ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
-  ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-  ![AWS](https://img.shields.io/badge/AWS%20(EC2%2FS3%2FRDS%2FVPC%2FASG)-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-  ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+**Infra / DevOps**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes%20(K3s)-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS%20(EC2%2FS3%2FRDS%2FVPC%2FASG)-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
-  **Collaboration**
-  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-  ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
-
-  ---
-
-  <div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=wlswnsdn&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true" alt="wlswnsdn's GitHub stats" />
-
-  </div>
-  
+**Collaboration**
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
