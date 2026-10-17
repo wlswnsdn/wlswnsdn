@@ -20,15 +20,17 @@
 |---|---|---|
 | [channeling-ai/BE-V2](https://github.com/channeling-ai/BE-V2) | 유튜브 영상 AI 분석 서비스 백엔드 (4인 팀, CI/CD 셋업부터 참여). 온보딩·로그아웃·피드백 API 개발, 비동기 처리로 로그인 응답 시간 4.3초→14ms 단축, AWS 전용 S3 연동을 리팩터링해 OCI 호환 지원 | Java, Spring Boot, MySQL, Docker |
 | [channeling-ai/INFRA](https://github.com/channeling-ai/INFRA) | Terraform으로 OCI 인스턴스 프로비저닝, 4개 티어(app/data/monitoring/platform) Helm 차트 작성, ArgoCD sync-wave 기반 GitOps 배포 구조 셋업 | Terraform, K3s, ArgoCD, Helm |
+| [channeling-ai/LLM-V2](https://github.com/channeling-ai/LLM-V2) | 유튜브 채널 분석 리포트를 생성하는 LLM 분석 서버. FastAPI·Kafka 초기 구조를 만들고 리포트 생성 요청을 토픽별로 나눠 처리, 컨슈머를 워커 3개로 분리해 리포트 작업을 병렬 처리, Kafka 파티션 확장 전 결과 메시지에 엔티티 ID 키 도입 | Python, FastAPI, Kafka, Redis |
 | [mcp-gemini-reviewer](https://github.com/wlswnsdn/mcp-gemini-reviewer) | Gemini 기반 코드리뷰 자동화 MCP 서버 (⭐2) | Python, Gemini API |
 | [LPilogue-BE](https://github.com/wlswnsdn/LPilogue-BE) | 일기 감정 기반 음악 추천 서비스 백엔드 (졸업작품, 4인 팀). 도메인별 예외 처리를 단일 에러 코드·응답 구조로 통합 | Java, Spring Boot |
-| [NeodinaryHackaton_BE](https://github.com/wlswnsdn/NeodinaryHackaton_BE) | 너디너리 해커톤 4인 팀 백엔드 | Java, Spring Boot |
 
 ---
 
 ### ⚙️ 기술 스택
 
 **Backend**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
