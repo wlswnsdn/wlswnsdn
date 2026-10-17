@@ -6,8 +6,8 @@
 
 ### 👋 안녕하세요, 백엔드와 인프라 자동화를 함께 다루는 개발자 진준우입니다
 
-Java / Spring Boot로 서비스를 만들고, Docker·Kubernetes(K3s)·Terraform·ArgoCD·Helm으로 직접 배포 파이프라인을 구성합니다.
-채널링 서비스에서는 백엔드 기능 개발과 함께 K8s 헬스체크, AWS ASG 기반 CI/CD 전환, 인프라 초기 구조(Terraform/K3s/ArgoCD) 셋업을 담당했습니다.
+실무에서는 AI 영상 SaaS의 Python/FastAPI 백엔드를 개발·운영하고 있습니다.
+사이드 프로젝트 채널링에서는 Java/Spring Boot 백엔드 개발에 참여하고, 인프라를 전담해 AWS에서 OCI로 옮기며 Terraform·K3s·ArgoCD·Helm으로 다시 구성했습니다.
 
 📫 Email: [wlswnsdn123@gmail.com](mailto:wlswnsdn123@gmail.com)
 🔗 LinkedIn: [linkedin.com/in/junwoo-jin-83b2a3303](https://www.linkedin.com/in/junwoo-jin-83b2a3303)
@@ -21,6 +21,7 @@ Java / Spring Boot로 서비스를 만들고, Docker·Kubernetes(K3s)·Terraform
 | [channeling-ai/BE-V2](https://github.com/channeling-ai/BE-V2) | 유튜브 영상 AI 분석 서비스 백엔드 (4인 팀, CI/CD 셋업부터 참여). 온보딩·로그아웃·피드백 API 개발, 비동기 처리로 로그인 응답 시간 4.3초→14ms 단축, AWS 전용 S3 연동을 리팩터링해 OCI 호환 지원 | Java, Spring Boot, MySQL, Docker |
 | [channeling-ai/INFRA](https://github.com/channeling-ai/INFRA) | Terraform으로 OCI 인스턴스 프로비저닝, 4개 티어(app/data/monitoring/platform) Helm 차트 작성, ArgoCD sync-wave 기반 GitOps 배포 구조 셋업 | Terraform, K3s, ArgoCD, Helm |
 | [mcp-gemini-reviewer](https://github.com/wlswnsdn/mcp-gemini-reviewer) | Gemini 기반 코드리뷰 자동화 MCP 서버 (⭐2) | Python, Gemini API |
+| [LPilogue-BE](https://github.com/wlswnsdn/LPilogue-BE) | 일기 감정 기반 음악 추천 서비스 백엔드 (졸업작품, 4인 팀). 도메인별 예외 처리를 단일 에러 코드·응답 구조로 통합 | Java, Spring Boot |
 | [NeodinaryHackaton_BE](https://github.com/wlswnsdn/NeodinaryHackaton_BE) | 너디너리 해커톤 4인 팀 백엔드 | Java, Spring Boot |
 
 ---
